@@ -8,7 +8,7 @@ import random
 from typing import Generator
 
 
-async def async_generator() ->Generator[float, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     """
     An asynchronous function that generates asynchronous values
     without taking args
